@@ -1,0 +1,24 @@
+{
+  "name": "uniswapv2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IshaMandaviya/UniswapV2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IshaMandaviya/UniswapV2/issues"
+  },
+  "homepage": "https://github.com/IshaMandaviya/UniswapV2#readme",
+  "dependencies": {
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@openzeppelin/contracts": "^4.5.0",
+    "hardhat": "^2.9.0"
+  }
+}
