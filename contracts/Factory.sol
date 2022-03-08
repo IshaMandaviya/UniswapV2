@@ -139,7 +139,7 @@ contract UniswapV2ERC20 is IUniswapV2ERC20 {
     constructor() public {
         uint256 chainId;
         assembly {
-            chainId := chainid
+            chainId := 1337
         }
         DOMAIN_SEPARATOR = keccak256(
             abi.encode(

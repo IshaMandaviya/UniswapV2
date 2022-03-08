@@ -3,7 +3,7 @@
 
 import "./TransferHelper.sol";
 
-pragma solidity >=0.6.6;
+pragma solidity  ^0.6.6;
 
 interface IWETH {
     function deposit() external payable;
@@ -127,7 +127,7 @@ library UniswapV2Library {
                 hex'ff',
                 factory,
                 keccak256(abi.encodePacked(token0, token1)),
-                hex'c6e71a8935bd83a995acc423eb84684019dee8347b680aa33dd1b2489804d389' // init code hash
+                hex'68281d35d3a84ea09b36087b7de8d6d52beb6fb80d15bb1101508b5087b39d48' // init code hash
             ))));
     }
 
